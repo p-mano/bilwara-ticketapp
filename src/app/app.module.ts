@@ -8,9 +8,13 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from "./login/login.component";
+import { HomePage } from "./home/home.page";
+import { RegisterComponent } from "./register/register.component";
+import {ForgetComponent} from './forget/forget.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent,LoginComponent,HomePage,RegisterComponent,ForgetComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
